@@ -1,0 +1,86 @@
+body {
+    max-width: 1024px; /* Ajusta el valor según tus preferencias */
+    margin: auto; /* Centra el contenido en la ventana del navegador */
+}
+
+.back{
+    background-image: url(../img/backot.jpg);
+    background-repeat: repeat;
+    background-size: auto;
+}
+h1{
+    font-style: oblique;
+    font-size: 6rem;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 162, 62);
+    border-radius: 1rem;
+    text-align: center;
+}
+header nav ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+}
+body header nav ul li{
+    text-align: center;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+    color: black;
+    background-color: rgb(255, 162, 62);
+}
+ul{
+    list-style: none;
+}
+.txt{
+    display: grid;
+    grid-template-columns:repeat(3, 2, 1fr);
+    grid-template-rows: 0.3fr 0.3fr;
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+.txt{
+    text-align: center;
+    padding: 1rem 2rem;
+}
+.spotify{
+    float: initial;
+}
+.delivery {
+    width: 25rem;
+    height: auto;
+    margin: 3rem;
+}
+.promos {
+    width: 25rem; 
+    height: auto;
+    margin: 3rem;    
+}
+.contenedor{
+    margin: 2rem;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-template-rows: 0.5fr 0.5fr;
+    column-gap: 2rem;
+    row-gap: 4rem   ;
+}
+@media (max-width: 992px) {
+    .txt, .h1 {
+        font-size: 1rem;
+        text-align: center;
+        grid-template-columns: repeat(2, 1fr); /* Define 2 columnas */
+        grid-gap: 1rem; /* Espacio entre elementos */
+        list-style: none; /* Quita los puntos de la lista */
+        padding: 0;
+        margin: 1rem;
+    }
+}
+@media (max-width: 992px) {
+    .delivery, .promos{
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        width: 11rem;
+        height: auto;
+        margin: 1rem;
+        grid-gap: 10px;
+    }
+} 
