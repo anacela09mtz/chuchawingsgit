@@ -64,7 +64,7 @@ ul{
     row-gap: 4rem   ;
 }
 @media (max-width: 992px) {
-    .txt, .h1 {
+    .txt, .h1, .packs {
         font-size: 1rem;
         text-align: center;
         grid-template-columns: repeat(2, 1fr); /* Define 2 columnas */
@@ -81,6 +81,23 @@ ul{
         width: 11rem;
         height: auto;
         margin: 1rem;
+        grid-gap: 10px;
+    }
+} 
+.menupic, .menupicdos, .packs {
+    width: 50rem;
+    height: auto;
+    margin: 3rem;
+    padding-right: 2rem;
+    padding-left: 4rem;
+}
+@media (max-width: 992px) {
+    .menupic, .menupicdos, .packs {
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        width: 22rem;
+        height: auto;
+        padding: auto;
         grid-gap: 10px;
     }
 } 

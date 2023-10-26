@@ -86,36 +86,5 @@ ul {
     margin: 1rem;
   }
 }
-menu.html @media (max-width: 992px) {
-  .delivery, .promos {
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    width: 11rem;
-    height: auto;
-    margin: 1rem;
-    grid-gap: 10px;
-  }
-}
-@media (max-width: 992px) {
-  .menupic, .menupicdos {
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    width: 11rem;
-    height: auto;
-    margin: 1rem;
-    grid-gap: 10px;
-  }
-}
-.menupic {
-  width: 25rem;
-  height: auto;
-  margin: 3rem;
-}
-
-.menupicdos {
-  width: 25rem;
-  height: auto;
-  margin: 3rem;
-}
 
 /*# sourceMappingURL=styles.css.map */
